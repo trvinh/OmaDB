@@ -7,16 +7,15 @@
 getTree(newick)
 }
 \arguments{
-\item{newick}{The newick tree to be instantiated.}
+\item{newick}{the newick of interest.}
 }
 \value{
-a tree object
+an tree object
 }
 \description{
-A convenience function to obtain a tree object from newick tree,
-essentially wraps read.tree from the ape package.
+The function to obtain the tree object from newick.
 }
 \examples{
-taxonomy = getTaxonomy(root='Alveolata')
+taxonomy = getTaxonomy(root="Alveolata")
 getTree(newick=taxonomy$newick)
 }

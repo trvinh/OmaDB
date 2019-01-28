@@ -4,7 +4,7 @@
 \alias{getTaxonomy}
 \title{Get the Taxonomic tree function}
 \usage{
-getTaxonomy(root = NULL, members = NULL, newick = TRUE)
+getTaxonomy(root = NULL, members, newick = TRUE)
 }
 \arguments{
 \item{root}{optional parameter, the root of the node of interest}
@@ -21,6 +21,6 @@ The function to obtain the taxonomic tree from the database in the newick format
 }
 \examples{
 getTaxonomy()
-getTaxonomy(members='YEAST,ASHGO')
-getTaxonomy(root='Alveolata')
+getTaxonomy(members="YEAST,ASHGO")
+getTaxonomy(root="Alveolata")
 }
